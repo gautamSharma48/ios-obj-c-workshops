@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7274C972A4BF0310057D2FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C962A4BF0310057D2FA /* AppDelegate.m */; };
+		C7274C9A2A4BF0310057D2FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C992A4BF0310057D2FA /* SceneDelegate.m */; };
+		C7274C9D2A4BF0310057D2FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C9C2A4BF0310057D2FA /* ViewController.m */; };
+		C7274CA02A4BF0310057D2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7274C9E2A4BF0310057D2FA /* Main.storyboard */; };
+		C7274CA22A4BF0320057D2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7274CA12A4BF0320057D2FA /* Assets.xcassets */; };
+		C7274CA52A4BF0320057D2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7274CA32A4BF0320057D2FA /* LaunchScreen.storyboard */; };
+		C7274CA82A4BF0320057D2FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CA72A4BF0320057D2FA /* main.m */; };
+		C7274CB72A4BFD4F0057D2FA /* UIViewContollerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CB62A4BFD4F0057D2FA /* UIViewContollerExtension.m */; };
+		C7274CBC2A4C0DAB0057D2FA /* StringExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CBB2A4C0DAB0057D2FA /* StringExtension.m */; };
+		C7274CBF2A4C1E250057D2FA /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CBE2A4C1E250057D2FA /* SignUpViewController.m */; };
+		C7274CC32A4C424E0057D2FA /* UITextFieldExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CC22A4C424E0057D2FA /* UITextFieldExtension.m */; };
+		C7274CC52A4C4E740057D2FA /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274CC42A4C4E740057D2FA /* Constants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7274C922A4BF0310057D2FA /* w405_w406_login_signup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = w405_w406_login_signup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7274C952A4BF0310057D2FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7274C962A4BF0310057D2FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7274C982A4BF0310057D2FA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C7274C992A4BF0310057D2FA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C7274C9B2A4BF0310057D2FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7274C9C2A4BF0310057D2FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7274C9F2A4BF0310057D2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7274CA12A4BF0320057D2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7274CA42A4BF0320057D2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7274CA62A4BF0320057D2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7274CA72A4BF0320057D2FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7274CB62A4BFD4F0057D2FA /* UIViewContollerExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewContollerExtension.m; sourceTree = "<group>"; };
+		C7274CB82A4BFD840057D2FA /* UIViewControllerExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewControllerExtension.h; sourceTree = "<group>"; };
+		C7274CBA2A4C0DAB0057D2FA /* StringExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringExtension.h; sourceTree = "<group>"; };
+		C7274CBB2A4C0DAB0057D2FA /* StringExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringExtension.m; sourceTree = "<group>"; };
+		C7274CBD2A4C1E250057D2FA /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		C7274CBE2A4C1E250057D2FA /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		C7274CC12A4C424E0057D2FA /* UITextFieldExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldExtension.h; sourceTree = "<group>"; };
+		C7274CC22A4C424E0057D2FA /* UITextFieldExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldExtension.m; sourceTree = "<group>"; };
+		C7274CC42A4C4E740057D2FA /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		C7274CC62A4C4F800057D2FA /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7274C8F2A4BF0310057D2FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7274C892A4BF0310057D2FA = {
+			isa = PBXGroup;
+			children = (
+				C7274C942A4BF0310057D2FA /* w405_w406_login_signup */,
+				C7274C932A4BF0310057D2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7274C932A4BF0310057D2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7274C922A4BF0310057D2FA /* w405_w406_login_signup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7274C942A4BF0310057D2FA /* w405_w406_login_signup */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CAF2A4BF1090057D2FA /* Resources */,
+				C7274CAE2A4BF0A20057D2FA /* StoryBoard */,
+				C7274CB42A4BFD030057D2FA /* Extension */,
+				C7274CB02A4BF1290057D2FA /* Controller */,
+				C7274CA62A4BF0320057D2FA /* Info.plist */,
+				C7274CA72A4BF0320057D2FA /* main.m */,
+				C7274CC42A4C4E740057D2FA /* Constants.m */,
+				C7274CC62A4C4F800057D2FA /* Constants.h */,
+			);
+			path = w405_w406_login_signup;
+			sourceTree = "<group>";
+		};
+		C7274CAE2A4BF0A20057D2FA /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CA32A4BF0320057D2FA /* LaunchScreen.storyboard */,
+				C7274CA12A4BF0320057D2FA /* Assets.xcassets */,
+				C7274C9E2A4BF0310057D2FA /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C7274CAF2A4BF1090057D2FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C7274C952A4BF0310057D2FA /* AppDelegate.h */,
+				C7274C962A4BF0310057D2FA /* AppDelegate.m */,
+				C7274C982A4BF0310057D2FA /* SceneDelegate.h */,
+				C7274C992A4BF0310057D2FA /* SceneDelegate.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7274CB02A4BF1290057D2FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CB12A4BF1480057D2FA /* Login */,
+				C7274CB32A4BF1DA0057D2FA /* Dashboard */,
+				C7274CB22A4BF1CA0057D2FA /* SignUp */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7274CB12A4BF1480057D2FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C7274C9B2A4BF0310057D2FA /* ViewController.h */,
+				C7274C9C2A4BF0310057D2FA /* ViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C7274CB22A4BF1CA0057D2FA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CBD2A4C1E250057D2FA /* SignUpViewController.h */,
+				C7274CBE2A4C1E250057D2FA /* SignUpViewController.m */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		C7274CB32A4BF1DA0057D2FA /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		C7274CB42A4BFD030057D2FA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CC02A4C41E70057D2FA /* UITextField + Extension */,
+				C7274CB92A4C0D3C0057D2FA /* String + Extension */,
+				C7274CB52A4BFD0F0057D2FA /* UIViewController + Extension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C7274CB52A4BFD0F0057D2FA /* UIViewController + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CB82A4BFD840057D2FA /* UIViewControllerExtension.h */,
+				C7274CB62A4BFD4F0057D2FA /* UIViewContollerExtension.m */,
+			);
+			path = "UIViewController + Extension";
+			sourceTree = "<group>";
+		};
+		C7274CB92A4C0D3C0057D2FA /* String + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CBA2A4C0DAB0057D2FA /* StringExtension.h */,
+				C7274CBB2A4C0DAB0057D2FA /* StringExtension.m */,
+			);
+			path = "String + Extension";
+			sourceTree = "<group>";
+		};
+		C7274CC02A4C41E70057D2FA /* UITextField + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7274CC12A4C424E0057D2FA /* UITextFieldExtension.h */,
+				C7274CC22A4C424E0057D2FA /* UITextFieldExtension.m */,
+			);
+			path = "UITextField + Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7274C912A4BF0310057D2FA /* w405_w406_login_signup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7274CAB2A4BF0320057D2FA /* Build configuration list for PBXNativeTarget "w405_w406_login_signup" */;
+			buildPhases = (
+				C7274C8E2A4BF0310057D2FA /* Sources */,
+				C7274C8F2A4BF0310057D2FA /* Frameworks */,
+				C7274C902A4BF0310057D2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = w405_w406_login_signup;
+			productName = w405_w406_login_signup;
+			productReference = C7274C922A4BF0310057D2FA /* w405_w406_login_signup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7274C8A2A4BF0310057D2FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C7274C912A4BF0310057D2FA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C7274C8D2A4BF0310057D2FA /* Build configuration list for PBXProject "w405_w406_login_signup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7274C892A4BF0310057D2FA;
+			productRefGroup = C7274C932A4BF0310057D2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7274C912A4BF0310057D2FA /* w405_w406_login_signup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7274C902A4BF0310057D2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7274CA52A4BF0320057D2FA /* LaunchScreen.storyboard in Resources */,
+				C7274CA22A4BF0320057D2FA /* Assets.xcassets in Resources */,
+				C7274CA02A4BF0310057D2FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7274C8E2A4BF0310057D2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7274CBC2A4C0DAB0057D2FA /* StringExtension.m in Sources */,
+				C7274C9D2A4BF0310057D2FA /* ViewController.m in Sources */,
+				C7274C972A4BF0310057D2FA /* AppDelegate.m in Sources */,
+				C7274CA82A4BF0320057D2FA /* main.m in Sources */,
+				C7274CB72A4BFD4F0057D2FA /* UIViewContollerExtension.m in Sources */,
+				C7274CC32A4C424E0057D2FA /* UITextFieldExtension.m in Sources */,
+				C7274CBF2A4C1E250057D2FA /* SignUpViewController.m in Sources */,
+				C7274C9A2A4BF0310057D2FA /* SceneDelegate.m in Sources */,
+				C7274CC52A4C4E740057D2FA /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7274C9E2A4BF0310057D2FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7274C9F2A4BF0310057D2FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7274CA32A4BF0320057D2FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7274CA42A4BF0320057D2FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7274CA92A4BF0320057D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7274CAA2A4BF0320057D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7274CAC2A4BF0320057D2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = w405_w406_login_signup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.w405-w406-login-signup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7274CAD2A4BF0320057D2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = w405_w406_login_signup/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.w405-w406-login-signup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7274C8D2A4BF0310057D2FA /* Build configuration list for PBXProject "w405_w406_login_signup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7274CA92A4BF0320057D2FA /* Debug */,
+				C7274CAA2A4BF0320057D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7274CAB2A4BF0320057D2FA /* Build configuration list for PBXNativeTarget "w405_w406_login_signup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7274CAC2A4BF0320057D2FA /* Debug */,
+				C7274CAD2A4BF0320057D2FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7274C8A2A4BF0310057D2FA /* Project object */;
+}
