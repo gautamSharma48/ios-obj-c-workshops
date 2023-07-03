@@ -14,9 +14,9 @@
             filePath = "w405_w406_login_signup/Controller/Login/ViewController.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "-signUpButton:"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-loginHandler:"
             landmarkType = "6">
          </BreakpointContent>
       </BreakpointProxy>

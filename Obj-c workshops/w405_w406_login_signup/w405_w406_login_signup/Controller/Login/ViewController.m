@@ -12,6 +12,7 @@
 #import "StringExtension.h"
 #import "SignUpViewController.h"
 #import  "Constants.h"
+#import "DashboardViewController.h"
 
 @interface ViewController () <UITextFieldDelegate>
 
@@ -27,20 +28,20 @@
     passwordField.secureTextEntry = YES;
     validEmail.hidden = YES;
     validPassword.hidden = YES;
-    
-    
+    [self setCommonLayout:emailView];
+    [self setCommonLayout:passwordView];
     
 }
 
-
 - (IBAction)signUpButton:(id)sender {
-    SignUpViewController *signup = [self.storyboard instantiateViewControllerWithIdentifier:@"SignUpViewController"];
-    [self.navigationController pushViewController:signup animated:true];
+    SignUpViewController *signupContoller;
+    [self navigation:signupContoller id:@"SignUpViewController"];
 }
 
 - (IBAction)loginHandler:(id)sender {
     NSString *email = emailField.text;
     NSString *password = passwordField.text;
+    DashboardViewController *dashboardViewController;
     
     if([email  length] == 0 || [password  length] == 0 ) {
         [self presentAlertWithTitle:@"Alert" message:@"please add Details"];
@@ -58,6 +59,7 @@
     }
     
     if(emailValid && passwordValid){
+        [self navigation:dashboardViewController id:@"DashboardViewController"];
         return [self presentAlertWithTitle:@"Login" message:loginSuccess];
     }
     
@@ -67,44 +69,12 @@
 -(BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
     
     if(textField == emailField){
-        [self validateEmailTextField:textField range:range replacementString:string];
+        [self validateEmailTextField:textField range:range replacementString:string image:validEmail];
     }
     else{
-        [self validatePasswordField:textField range:range replacementString:string];
+        [self validatePasswordField:textField range:range replacementString:string image:validPassword];
     }
     return  YES;
 }
 
-- (void)validateEmailTextField:(UITextField *)textField range:(NSRange)range replacementString:(NSString *)string {
-    NSString *updatedText = [textField.text stringByReplacingCharactersInRange:range withString:string];
-    if(updatedText.length == 0){
-        validEmail.hidden = YES;
-    }
-    else if([updatedText validateString:updatedText regexValue:emailRegex]){
-        validEmail.hidden = NO;
-        validEmail.image = [UIImage imageNamed:@"valid"];
-    }
-    else{
-        NSLog(@"asdfasf");
-        validEmail.hidden = NO;
-        validEmail.image = [UIImage imageNamed:@"invalid"];
-    }
-    
-}
-
-- (void)validatePasswordField:(UITextField *)textField range:(NSRange)range replacementString:(NSString *)string {
-    NSString *updatedText = [textField.text stringByReplacingCharactersInRange:range withString:string];
-    if(updatedText.length == 0){
-        validPassword.hidden = YES;
-    }
-    else if([updatedText validateString:updatedText regexValue:passwordRegex]){
-        validPassword.hidden = NO;
-        validPassword.image = [UIImage imageNamed:@"valid"];
-    }
-    else{
-        validPassword.hidden = NO;
-        validPassword.image = [UIImage imageNamed:@"invalid"];
-    }
-    
-}
 @end

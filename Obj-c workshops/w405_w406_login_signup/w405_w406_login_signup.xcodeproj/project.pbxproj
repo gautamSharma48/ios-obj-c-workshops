@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7111C682A52C9F900373F58 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7111C672A52C9F900373F58 /* DashboardViewController.m */; };
+		C7111C6C2A52F40900373F58 /* CustomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7111C6B2A52F40900373F58 /* CustomCellView.m */; };
 		C7274C972A4BF0310057D2FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C962A4BF0310057D2FA /* AppDelegate.m */; };
 		C7274C9A2A4BF0310057D2FA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C992A4BF0310057D2FA /* SceneDelegate.m */; };
 		C7274C9D2A4BF0310057D2FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7274C9C2A4BF0310057D2FA /* ViewController.m */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7111C662A52C9F900373F58 /* DashboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		C7111C672A52C9F900373F58 /* DashboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		C7111C6A2A52F40900373F58 /* CustomCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellView.h; sourceTree = "<group>"; };
+		C7111C6B2A52F40900373F58 /* CustomCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellView.m; sourceTree = "<group>"; };
 		C7274C922A4BF0310057D2FA /* w405_w406_login_signup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = w405_w406_login_signup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7274C952A4BF0310057D2FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7274C962A4BF0310057D2FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7111C692A52F32200373F58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7111C6A2A52F40900373F58 /* CustomCellView.h */,
+				C7111C6B2A52F40900373F58 /* CustomCellView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C7274C892A4BF0310057D2FA = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +91,7 @@
 		C7274C942A4BF0310057D2FA /* w405_w406_login_signup */ = {
 			isa = PBXGroup;
 			children = (
+				C7111C692A52F32200373F58 /* View */,
 				C7274CAF2A4BF1090057D2FA /* Resources */,
 				C7274CAE2A4BF0A20057D2FA /* StoryBoard */,
 				C7274CB42A4BFD030057D2FA /* Extension */,
@@ -140,6 +156,8 @@
 		C7274CB32A4BF1DA0057D2FA /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				C7111C662A52C9F900373F58 /* DashboardViewController.h */,
+				C7111C672A52C9F900373F58 /* DashboardViewController.m */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -253,9 +271,11 @@
 			files = (
 				C7274CBC2A4C0DAB0057D2FA /* StringExtension.m in Sources */,
 				C7274C9D2A4BF0310057D2FA /* ViewController.m in Sources */,
+				C7111C6C2A52F40900373F58 /* CustomCellView.m in Sources */,
 				C7274C972A4BF0310057D2FA /* AppDelegate.m in Sources */,
 				C7274CA82A4BF0320057D2FA /* main.m in Sources */,
 				C7274CB72A4BFD4F0057D2FA /* UIViewContollerExtension.m in Sources */,
+				C7111C682A52C9F900373F58 /* DashboardViewController.m in Sources */,
 				C7274CC32A4C424E0057D2FA /* UITextFieldExtension.m in Sources */,
 				C7274CBF2A4C1E250057D2FA /* SignUpViewController.m in Sources */,
 				C7274C9A2A4BF0310057D2FA /* SceneDelegate.m in Sources */,

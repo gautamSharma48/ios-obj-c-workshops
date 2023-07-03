@@ -14,18 +14,15 @@
     __weak IBOutlet UITextField *emailField;
     
     __weak IBOutlet UIImageView *validEmail;
-    
     __weak IBOutlet UIImageView *validPassword;
+    
     __weak IBOutlet UIView *emailView;
     __weak IBOutlet UIView *passwordView;
-    
     
 }
 
 - (IBAction)loginHandler:(id)sender;
 - (IBAction)signUpButton:(id)sender;
--  (void) setCommonLayout;
-
 
 @end
 

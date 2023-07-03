@@ -9,15 +9,24 @@
 
 
 @interface SignUpViewController : UIViewController{
-  
+    
     __weak IBOutlet UITextField *emailField;
-    
     __weak IBOutlet UITextField *passwordField;
-    
     __weak IBOutlet UITextField *confirmpasswordField;
+    
+    __weak IBOutlet UIView *nameView;
+    __weak IBOutlet UIView *emailView;
+    __weak IBOutlet UIView *passwordView;
+    __weak IBOutlet UIView *confirmPasswordView;
+    
+    __weak IBOutlet UIImageView *validPassword;
+    __weak IBOutlet UIImageView *validEmail;
+    __weak IBOutlet UIImageView *validConfirmPassword;
+    
 }
 
 - (IBAction)signUpHandler:(id)sender;
+- (IBAction)loginNavigation:(id)sender;
 
 
 @end
