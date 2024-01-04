@@ -57,11 +57,11 @@
     BOOL conFirmPasswordCheck = [password isEqualToString:confirmPassword];
     
     if(!emailValid){
-        return [self presentAlertWithTitle:@"" message:emailValidationFailed];
+        return [self presentAlertWithTitle:@"Alert" message:emailValidationFailed];
     }
     
     if(!passwordValid || !conFirmPasswordCheck){
-        return [self presentAlertWithTitle:@"" message:passwordValidationFailed];
+        return [self presentAlertWithTitle:@"Alert" message:passwordValidationFailed];
     }
     
     [self navigation:dashboardViewContoller id:@"DashboardViewController"];
